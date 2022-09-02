@@ -160,7 +160,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err);
         }
-        console.log("Nice Work!! You can preview your new README file");
+        console.log("Nice Work!! You can preview your new README.md file");
     });
 };
 

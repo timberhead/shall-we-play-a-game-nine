@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/timberhead/shall-we-play-a-game-seven/issues"
   },
-  "homepage": "https://github.com/timberhead/shall-we-play-a-game-seven#readme"
+  "homepage": "https://github.com/timberhead/shall-we-play-a-game-seven#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
