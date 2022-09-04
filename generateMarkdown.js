@@ -7,7 +7,7 @@ function generateMarkdown(data) {
     return `
 <h1 align="center">${data.title} </h1>
   
-![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-${data.license}-blue)<br />
 ## Description
  ${data.description}
 ## Table of Contents

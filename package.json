@@ -18,5 +18,6 @@
   "homepage": "https://github.com/timberhead/shall-we-play-a-game-seven#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
-  }
+  },
+  "keywords": []
 }

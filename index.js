@@ -5,11 +5,11 @@
 // [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide)
 
 
-const inquier = require("inquier");
-const fs = requier("fs");
-const gerenatorMarkdown = require("./utils/geratorMarkdown.js");
+const inquirer = require("inquirer");
+const fs = require("fs");
+// const generateMarkdown = require("generateMarkdown.js");
 console.log("Welcome to the coolest README generator");
-console.log("Answer the following questions to generate a super high quality README for your project");
+console.log("Answer the following questions to generate a super high quality README.md for your project");
 
 const questions = [
     {
@@ -165,7 +165,7 @@ function writeToFile(fileName, data) {
 };
 
 function init() {
-    inquirer.prompt(question)
+    inquirer.prompt(questions)
     .then(function (userInput) {
         console.log(userInput)
         writeToFile("README.md", generateMarkdown(userInput));
