@@ -7,7 +7,7 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const generateMarkdown = require("generateMarkdown.js");
+const generateMarkdown = require("./generateMarkdown");
 console.log("Welcome to the coolest README generator");
 console.log("Answer the following questions to generate a super high quality README.md for your project");
 

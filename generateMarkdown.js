@@ -4,8 +4,8 @@
 
 // generateMarkdown function populating the README.md document
 function generateMarkdown(data) {
-    return `
-<h1 align="center">${data.title} </h1>
+  console.log (data);
+    return `<h1 align="center">${data.title} </h1>
   
 ![badge](https://img.shields.io/badge/license-${data.license}-blue)<br />
 ## Description
@@ -46,4 +46,4 @@ _This README was generated with ❤️ by [README.md-Generator](https://timberhe
     `;
   }
   
-//   module.exports = ?????????????;
+  module.exports = generateMarkdown;
